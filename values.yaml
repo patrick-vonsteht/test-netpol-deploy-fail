@@ -1,0 +1,11 @@
+# This suffix gets added to the name of the network policy. Change this to simulate a network policy rename.
+netpolNameSuffix: 123
+
+# This is the port that the network policy applies to. Change this to simulate a network policy reconfiguration.
+netpolPort: 80
+
+# Use this flag to enable or disable the deployment of the network policy.
+netpolEnabled: false
+
+# Use this flag to simulate failed releases.
+fail: false
