@@ -17,8 +17,6 @@ STATUS: deployed
 REVISION: 1
 TEST SUITE: None
 
-PS > helm upgrade --install --wait --timeout 5s test1-netpol-deploy-fail .\test-netpol-deploy-fail\ --set netpolNameSuffix=test --set netpolPort=80 --set netpolEnabled=false --set fail=true^C
-
 PS > kubectl get pods
 NAME                                                              READY   STATUS    RESTARTS   AGE
 test1-netpol-deploy-fail-test-netpol-deploy-fail-6f57dc577tc7td   1/1     Running   0          15s
